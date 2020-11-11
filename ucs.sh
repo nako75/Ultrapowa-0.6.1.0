@@ -31,14 +31,14 @@ echo $cyan " insert username database :"
 read kartu
 echo $cyan " insert name database :"
 read anda
-echo "\033[0;32m]List Socks : "
+echo "\033[0;32m]Insert Your IPv4 : "
 read socks
 echo $red "Loading 50%....."
 sleep 5
 echo $red "Loading 100%......."
 sleep 5
 echo $red "Successfully connecting to database $anda"
-echo $red "TCP Server is Listening to : 127.0.0.1:9339......"
+echo $red "TCP Server is Listening to : $socks:9339......"
 sleep 5
 echo "Check Client Version 7.200...."
 sleep 3
